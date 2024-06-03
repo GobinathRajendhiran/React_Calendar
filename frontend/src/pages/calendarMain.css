@@ -1,0 +1,63 @@
+body {
+    background-color: aliceblue;
+}
+
+.calendarContainerMain {
+    border: 5px solid #00A7A5;
+    border-radius: 7px;
+    background-color: #3cc9c896;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.calendarHeadSectionMain {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.react-datepicker-wrapper {
+    width: 50%;
+}
+
+.modal-title {
+    margin-left: 24px;
+}
+
+.modalFormForTask {
+    padding: 5px 50px;
+}
+
+.titleModalInputBox {
+    width: 50%;
+}
+
+.titleModalInputBox, .startDateModalInputBox, .endTimeModalInputBox {
+    border: 1px solid #00A7A5;
+    height: 30px;
+    color: #000000;
+    outline: none;
+}
+
+.allDayModalCheckBox {
+    border: 1px solid #00A7A5;
+    height: 30px;
+    width: 30px;
+    color: #000000;
+    outline: none;
+}
+
+.descriptionModalInputBox {
+    border: 1px solid #00A7A5;
+    height: 100px;
+    color: #000000;
+    outline: none;
+    resize: none;
+}
+
+#taskUploadModalErrorText {
+    display: none;
+    font-size: 12px;
+    color: red;
+}
